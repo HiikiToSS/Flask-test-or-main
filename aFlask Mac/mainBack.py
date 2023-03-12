@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+
 menu = [
     {'name' : 'О сайте', 'url' : 'about'},
     {'name' : 'Обратная связь', 'url' : 'contact'},
